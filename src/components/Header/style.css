@@ -1,0 +1,36 @@
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero svg.branches {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.hero-content {
+  position: relative;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 6vw, 2.5rem);
+  font-weight: 600;
+  margin: 0 0 8px;
+  letter-spacing: -0.01em;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  margin: 0;
+  max-width: 42ch;
+  margin-inline: auto;
+}

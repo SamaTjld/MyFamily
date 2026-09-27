@@ -1,0 +1,21 @@
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.back-link:hover {
+  color: var(--ink);
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+.back-link svg {
+  width: 13px;
+  height: 13px;
+}

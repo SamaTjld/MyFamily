@@ -1,0 +1,42 @@
+.card {
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+.card-photo {
+  aspect-ratio: 3.5 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--paper-light);
+  font-family: "Fraunces", serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.card-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+.card .name {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+
+.card .age,
+.card .birthDate {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}

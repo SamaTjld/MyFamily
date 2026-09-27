@@ -1,0 +1,5 @@
+.browser-body .sub {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin: 0 0 10px;
+}

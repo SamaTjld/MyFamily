@@ -1,0 +1,22 @@
+.open {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.85rem;
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 600;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.open svg {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.open span {
+  border-bottom: 1px solid transparent;
+}
+.open:hover span {
+  border-bottom-color: var(--green);
+}
